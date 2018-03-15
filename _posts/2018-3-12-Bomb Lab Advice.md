@@ -2,7 +2,7 @@
 layout: post
 title: Advice for the Bomb Lab!
 ---
- I had the recent pleasure of tackling The Famous CMU Bomb lab. Throughout the course of frantically googling calling conventions for ATT Assembly,translating assebmly line by line into C and checking registers frequently, I stumbled upon some resources that would have proven useful prior to diving in.
+ I had the recent pleasure of tackling the famous CMU Bomb lab. Throughout the course of frantically googling calling conventions for ATT Assembly,translating assebmly line by line into C and checking registers frequently, I stumbled upon some resources that would have proven useful prior to diving in.
 
 # 1. The Lectures and Recitation from CMU
  All [CMU Lectures] for Introduction to Computer Systems  are online as well as TA Recitations for the eight labs.
@@ -18,7 +18,7 @@ title: Advice for the Bomb Lab!
 [Bomb Lab]:http://csapp.cs.cmu.edu/3e/labs.html
 
 # 2. Setting Up the Lab
-If you are performing this lab for school, the lab writeup will vary according to the instructor and instution. You will most likely have to work directly on a school machine or remotely connect to a school account. As for the individuals doing it for the riches and glory, you will require a 64 bit OS. Once the tar is downloaded, extract it and in the folder create two new empty files. One will store  breakpoints that will be useful throughout the entire lab such as the example below.
+If you are performing this lab for school, the lab writeup will vary according to the instructor and instution. You will most likely have to work directly on a school machine or remotely connect to a school account. As for the individuals doing it for the riches and glory, you will need a 64 bit OS otherwise it will display an error. Once the tar is downloaded, extract it and in the folder create two new empty files. One will store  breakpoints that will be useful throughout the entire lab such as the example below.
 
 ![alt text][break]
 
@@ -33,7 +33,7 @@ To use the breakpoint file we just created, enter **source fileName**. This tech
 # 3. Disassembling Options and Useful Commands
 
 ### 1. Useful Commands
-Prior to this lab, I had no experience using gdb as a result the follow tips are based off the pitfalls I encountered and apologize if the following tips are elementary.  The first three shortcuts  I discovered were **i r**  **i b** and **delete breakpoint**(where breakpoint is an integer 1 to n)  for info register ,info breakpoints, and removing breakpoints.
+Prior to this lab, I had no experience using gdb as a result the follow tips are based off the pitfalls I encountered and apologize if the following tips are elementary.  The first three shortcuts  I discovered were **i r**, **i b** and **delete breakpoint**(where breakpoint is an integer 1 to n)  for info register ,info breakpoints, and removing breakpoints.
 ![alt text][ib]
 
 Info register displays all the values held in the registers  in decimal and hexademical.
