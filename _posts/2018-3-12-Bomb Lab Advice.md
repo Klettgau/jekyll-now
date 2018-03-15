@@ -68,5 +68,5 @@ The following sites were a boon when encountering different `jmp` or checking wh
 [ir]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/ir.png "an example of info register"
 [ib]:https://github.com/Klettgau/klettgau.github.io/blob/f3d7b4ba881a0c4e788c4253a2877011adc25eda/images/ib.png "an example of info break and deleting a breakpoint"
 [break]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/breakpoints
-[source]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/source_breakpoints
-[answer]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/answer%20file
+[source]: klettgau.github.io/images/source_breakpoints 
+[answer]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/answer%20file?raw=true
