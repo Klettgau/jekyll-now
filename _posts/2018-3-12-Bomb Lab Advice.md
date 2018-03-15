@@ -65,8 +65,8 @@ The following sites were a boon when encountering different `jmp` or checking wh
 [Wisc]:https://www.cs.uaf.edu/2005/fall/cs301/support/x86/index.html
 [Brown]:https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 [x Command]:http://visualgdb.com/gdbreference/commands/x "the source of the x command format"
-[ir]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/ir.png "an example of info register"
-[ib]:https://github.com/Klettgau/klettgau.github.io/blob/f3d7b4ba881a0c4e788c4253a2877011adc25eda/images/ib.png "an example of info break and deleting a breakpoint"
-[break]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/breakpoints
-[source]: klettgau.github.io/images/source_breakpoints 
-[answer]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/answer%20file?raw=true
+[ir]:https://raw.githubusercontent.com/Klettgau/klettgau.github.io/master/images/ir.png "an example of info register"
+[ib]:https://raw.githubusercontent.com/Klettgau/klettgau.github.io/master/images/ib.png "an example of info break and deleting a breakpoint"
+[break]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/breakpoints?raw=true "example of breakpoint "
+[source]: https://github.com/Klettgau/klettgau.github.io/blob/master/images/source_breakpoints?raw=true "source command in gdb"
+[answer]:https://github.com/Klettgau/klettgau.github.io/blob/master/images/answer%20file?raw=true "example of answer file for bomb lab"
