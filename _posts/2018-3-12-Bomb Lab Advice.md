@@ -26,14 +26,14 @@ The other file will store the answers you discovered to each phase to avoid alwa
 
 ![alt text][answer]
 
-To use the breakpoint file we just created, enter `source fileName`. This technqiue works for all valid commands and not only setting breakpoints  in gdb. To avoid losing points, it is highly recommended that you set a breakpoint for the function explode_ bomb. 
+To use the breakpoint file we just created, enter ```source fileName```. This technqiue works for all valid commands and not only setting breakpoints  in gdb. To avoid losing points, it is highly recommended that you set a breakpoint for the function explode_ bomb. 
 
 ![alt text][source]
 
 # 3. Disassembling Options and Useful Commands
 
 ### 1. Useful Commands
-Prior to this lab, I had no experience using gdb as a result the follow tips are based off the pitfalls I encountered and apologize if the following tips are elementary.  The first three shortcuts  I discovered were `i r`  `i b` and `delete breakpoint`(where breakpoint is an integer 1 to n)  for info register ,info breakpoints, and removing breakpoints.
+Prior to this lab, I had no experience using gdb as a result the follow tips are based off the pitfalls I encountered and apologize if the following tips are elementary.  The first three shortcuts  I discovered were ```i r```  ```i b``` and ```delete breakpoint```(where breakpoint is an integer 1 to n)  for info register ,info breakpoints, and removing breakpoints.
 ![alt text][ib]
 
 Info register displays all the values held in the registers  in decimal and hexademical.
@@ -51,9 +51,9 @@ The two common ways to disassemble the bomb blob is either in gdb or objdump. I 
 
 
 # 4. CheatSheets
-The following sites were a boon when encountering different `jmp` or checking which register is the 2 argument.
+The following sites were a boon when encountering different ```jmp``` or checking which register is the 2 argument.
 
-[Brown] provides a great writeup and clearly defines the different `jmp`s available or and which value is the Source and Destination.
+[Brown] provides a great writeup and clearly defines the different ```jmp```s available or and which value is the Source and Destination.
 
 [Wisc] while slightly dated still provides relevant information about basic operations in assembly and usage of different registers.
 
