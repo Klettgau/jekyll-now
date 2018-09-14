@@ -45,7 +45,7 @@ x [Address expression]
 x /[Format] [Address expression]
 x /[Length][Format] [Address expression]
 ```
-The command is useful to explore regions of mememory or to confirm the data type especially if it's an array or a jump table.
+The command is useful to explore regions of memory or to confirm the data type especially if it's an array or a jump table.
 ### 2. Disassembling
 The two common ways to disassemble the bomb blob is either in gdb or objdump. I preferred objdump to gdb since you can pipe the output to a file and use your preferred text editor. `objdump -d bomb > nameOfOutPut`. Objdump also can print out the symbol table of the binary blob  `objdump -t bomb`. Strings will display all the strings in the blob  `strings bomb`
 
